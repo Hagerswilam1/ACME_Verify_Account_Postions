@@ -1,0 +1,255 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Sequence" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="854.4,4596.8" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:a="clr-namespace:ACME_System1;assembly=ACME_System1" xmlns:a1="clr-namespace:ACME_System3;assembly=ACME System3" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>ACME</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.CSV.Activities</x:String>
+      <x:String>UiPath.CSV</x:String>
+      <x:String>ACME_System3</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>UiPath.OCR.Contracts</x:String>
+      <x:String>UiPath.OCR.Activities</x:String>
+      <x:String>UiPath.OCR.Contracts.Activities</x:String>
+      <x:String>UiPath.Activities.Contracts</x:String>
+      <x:String>System.Net</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>ACME_System1</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>ACME</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>ACME System3</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>UiPath.Activities.Contracts</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Net.HttpListener</AssemblyReference>
+      <AssemblyReference>System.Net.WebProxy</AssemblyReference>
+      <AssemblyReference>System.Net.NameResolution</AssemblyReference>
+      <AssemblyReference>System.Net.WebClient</AssemblyReference>
+      <AssemblyReference>System.Net.Requests</AssemblyReference>
+      <AssemblyReference>System.Net.ServicePoint</AssemblyReference>
+      <AssemblyReference>System.Net.WebHeaderCollection</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>ACME_System1</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="592,4532" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="out_dtAccountInfo" />
+      <Variable x:TypeArguments="x:String" Name="strEmail">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">hagerswilam4321@gmail.com</Literal>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="strPassword" />
+      <Variable x:TypeArguments="sd:DataTable" Name="dtExtractedData" />
+      <Variable x:TypeArguments="ui:Browser" Name="strBrowser" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <a:ACME_System1_Launch sap:VirtualizedContainerService.HintSize="529.6,226.4" sap2010:WorkflowViewState.IdRef="ACME_System1_Launch_1" in_intRetryNumber="3" in_intTimeOut="10000" in_tsRetryInterval="00:00:00" />
+    <ui:GetPassword DisplayName="Get Password" sap:VirtualizedContainerService.HintSize="529.6,56.8" sap2010:WorkflowViewState.IdRef="GetPassword_1" ProtectedPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAEmwv+XN10UGX3gKNa+WmxAAAAAACAAAAAAAQZgAAAAEAACAAAAD7AaZAFH/D04qH+wuJ9vh0sq7kIBaE0Nx5rSqgMsaxgwAAAAAOgAAAAAIAACAAAADdIZ8oaTp0fyiv3BqO3NDTvae4vfxKlW4BriFWMoEYtRAAAAAsO5m0/IqilJKT6EwdQ/hvQAAAAO3ykLFOhei8FZOgV6UyukHJxGoG2VsS9uMGL7UtOdBksC6N+enXtVLiwLT6VbqeXDo+R7QqTI0ugOaHz7WZHzE=" Result="[strPassword]" />
+    <a:ACME_System1_Login sap:VirtualizedContainerService.HintSize="529.6,330.4" sap2010:WorkflowViewState.IdRef="ACME_System1_Login_1" in_intRetryNumber="3" in_intTimeOut="10000" in_sstrPassword="[new Net.NetworkCredential(&quot;&quot;,strPassword).SecurePassword]" in_strEmailPrompt="[strEmail]" in_tsRetryInterval="00:00:00" />
+    <a:ACME_System1_Navigate_To_WorkItems sap:VirtualizedContainerService.HintSize="529.6,226.4" sap2010:WorkflowViewState.IdRef="ACME_System1_Navigate_To_WorkItems_1" in_intRetryNumber="3" in_intTimeOut="10000" in_tsRetryInterval="00:00:00" />
+    <a:ACME_System1_Data_Scraping_To_WorkItems DisplayName="ACME_DataScraping_To_WorkItems" sap:VirtualizedContainerService.HintSize="529.6,278.4" sap2010:WorkflowViewState.IdRef="ACME_System1_Data_Scraping_To_WorkItems_1" in_intRetryNumber="3" in_intTimeOut="10000" in_tsRetryInterval="00:00:00" out_ExtractDataTable="[dtExtractedData]" />
+    <ui:FilterDataTable DataTable="[dtExtractedData]" DisplayName="Filter Data Table" FilterRowsMode="Keep" sap:VirtualizedContainerService.HintSize="529.6,194.4" sap2010:WorkflowViewState.IdRef="FilterDataTable_2" OutputDataTable="[dtExtractedData]" SelectColumnsMode="Remove">
+      <ui:FilterDataTable.Filters>
+        <scg:List x:TypeArguments="ui:FilterOperationArgument" Capacity="4">
+          <ui:FilterOperationArgument BooleanOperator="And" Operator="EQ">
+            <ui:FilterOperationArgument.Column>
+              <InArgument x:TypeArguments="x:String">["Type"]</InArgument>
+            </ui:FilterOperationArgument.Column>
+            <ui:FilterOperationArgument.Operand>
+              <InArgument x:TypeArguments="x:String">["WI1"]</InArgument>
+            </ui:FilterOperationArgument.Operand>
+          </ui:FilterOperationArgument>
+        </scg:List>
+      </ui:FilterDataTable.Filters>
+      <ui:FilterDataTable.SelectColumns>
+        <scg:List x:TypeArguments="InArgument" Capacity="4">
+          <x:Null />
+        </scg:List>
+      </ui:FilterDataTable.SelectColumns>
+    </ui:FilterDataTable>
+    <a1:ACME_System3_Launch sap:VirtualizedContainerService.HintSize="529.6,56.8" sap2010:WorkflowViewState.IdRef="ACME_System3_Launch_1" in_intRetryNumber="3" in_intTimeOut="10000" in_tsRetryInterval="00:00:00" />
+    <a1:ACME_System3_LogIn sap:VirtualizedContainerService.HintSize="529.6,174.4" sap2010:WorkflowViewState.IdRef="ACME_System3_LogIn_1" in_intRetryNumber="3" in_intTimeOut="10000" in_sstrPassword="[new Net.NetworkCredential(&quot;&quot;,strPassword).SecurePassword]" in_strEmailPrompt="[strEmail]" in_tsRetryInterval="00:00:00" />
+    <a1:ACME_System3_Clients_Search DisplayName="ACME_System3_ClientsSearch" sap:VirtualizedContainerService.HintSize="529.6,56.8" sap2010:WorkflowViewState.IdRef="ACME_System3_Clients_Search_1" in_intRetryNumber="3" in_intTimeOut="10000" in_tsRetryInterval="00:00:00" />
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dtExtractedData]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="529.6,2398.4" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+      <ui:ForEachRow.Body>
+        <ActivityAction x:TypeArguments="sd:DataRow">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="496,2200.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="strClientID" />
+              <Variable x:TypeArguments="x:String" Name="strAccNumber" />
+              <Variable x:TypeArguments="x:String" Name="strAccAmount" />
+              <Variable x:TypeArguments="x:String" Name="strCurrency" />
+              <Variable x:TypeArguments="sd:DataTable" Name="dtAccountInfo" />
+              <Variable x:TypeArguments="x:String" Name="variable1" />
+              <Variable x:TypeArguments="x:String" Name="variable2" />
+              <Variable x:TypeArguments="x:Double" Name="dblSumAmount" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <a:ACME_System1_URL_Navigate sap:VirtualizedContainerService.HintSize="433.6,278.4" sap2010:WorkflowViewState.IdRef="ACME_System1_URL_Navigate_1" in_intRetryNumber="3" in_intTimeOut="10000" in_strURL="[CurrentRow(&quot;Actions Url&quot;).ToString]" in_tsRetryInterval="00:00:00" />
+            <a:ACME_System1_Get_Account_Info sap:VirtualizedContainerService.HintSize="433.6,434.4" sap2010:WorkflowViewState.IdRef="ACME_System1_Get_Account_Info_1" in_intRetryNumber="3" in_intTimeOut="10000" in_tsRetryInterval="00:00:00" out_strAccAmount="[strAccAmount]" out_strAccNumber="[strAccNumber]" out_strClientID="[strClientID]" out_strCurrency="[strCurrency]" />
+            <a1:ACME_System3_Search_Form DisplayName="ACME_System3_SearchForm" sap:VirtualizedContainerService.HintSize="433.6,174.4" sap2010:WorkflowViewState.IdRef="ACME_System3_Search_Form_1" in_boolIncludeInactiveClient="True" in_intRetryNumber="3" in_intTimeOut="10000" in_strSearchByID="[strClientID]" in_tsRetryInterval="00:00:00" />
+            <a1:ACME_System3_Open_Client_Accounts DisplayName="ACME_System3_ClienDetails" sap:VirtualizedContainerService.HintSize="433.6,56.8" sap2010:WorkflowViewState.IdRef="ACME_System3_Open_Client_Accounts_1" in_intRetryNumber="3" in_intTimeOut="10000" in_tsRetryInterval="00:00:00" />
+            <a1:ACME_System3_Open_Client_Movement DisplayName="ACME_System3_ClienAccount" sap:VirtualizedContainerService.HintSize="433.6,122.4" sap2010:WorkflowViewState.IdRef="ACME_System3_Open_Client_Movement_1" in_intRetryNumber="3" in_intTimeOut="10000" in_strDynamicAccNumber="[strAccNumber]" in_tsRetryInterval="00:00:00" />
+            <a1:ACME_System3_Extract_All_Account_Movements DisplayName="ACME_System3_ExtractAllAccountMovements" sap:VirtualizedContainerService.HintSize="433.6,122.4" sap2010:WorkflowViewState.IdRef="ACME_System3_Extract_All_Account_Movements_1" in_intRetryNumber="3" in_intTimeOut="10000" in_tsRetryInterval="00:00:00" out_dtAccountInfo="[dtAccountInfo]" />
+            <a:ACME_System1_Open_Update_WorkItem sap:VirtualizedContainerService.HintSize="433.6,226.4" sap2010:WorkflowViewState.IdRef="ACME_System1_Open_Update_WorkItem_1" in_intRetryNumber="3" in_intTimeOut="10000" in_tsRetryInterval="00:00:00" />
+            <Assign sap:VirtualizedContainerService.HintSize="433.6,113.6" sap2010:WorkflowViewState.IdRef="Assign_1">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:Double">[dblSumAmount]</OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:Double">[dtAccountInfo.AsEnumerable().Sum(Function(row) CDbl(row("Amount")))]</InArgument>
+              </Assign.Value>
+            </Assign>
+            <a:ACME_System1_Update_WorkItem sap:VirtualizedContainerService.HintSize="433.6,330.4" sap2010:WorkflowViewState.IdRef="ACME_System1_Update_WorkItem_1" in_intRetryNumber="3" in_intTimeOut="10000" in_strComment="[if(dblSumAmount=CDbl(strAccAmount) ,&quot;Account value matches&quot;, &quot;Account has difference of &quot;+ (dblSumAmount -CDbl(strAccAmount)).ToString)]" in_strStatus="Completed" in_tsRetryInterval="00:00:00" />
+            <a1:ACME_System3_Back_To DisplayName="ACME_System3_BackTo" sap:VirtualizedContainerService.HintSize="433.6,122.4" sap2010:WorkflowViewState.IdRef="ACME_System3_Back_To_1" in_intRetryNumber="3" in_intTimeOut="10000" in_strStopWindowTitle="SearchingClient" in_tsRetryInterval="00:00:00" />
+            <ui:CloseWindow TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="Close Window 'Close Window Item Update '" sap:VirtualizedContainerService.HintSize="433.6,130.4" sap2010:WorkflowViewState.IdRef="CloseWindow_1" InformativeScreenshot="1c65f1dccfc6610a7a83789684bc56bc" Selector="&lt;html app='chrome.exe' url='https://acme-test.uipath.com/work-items/update/*' /&gt;">
+              <ui:CloseWindow.WaitForReady>
+                <InArgument x:TypeArguments="ui:WaitForReady">
+                  <Literal x:TypeArguments="ui:WaitForReady" sap2010:WorkflowViewState.IdRef="Literal`1_1" Value="INTERACTIVE" />
+                </InArgument>
+              </ui:CloseWindow.WaitForReady>
+            </ui:CloseWindow>
+          </Sequence>
+        </ActivityAction>
+      </ui:ForEachRow.Body>
+    </ui:ForEachRow>
+    <a:ACME_System1_LogOut sap:VirtualizedContainerService.HintSize="529.6,174.4" sap2010:WorkflowViewState.IdRef="ACME_System1_LogOut_1" in_intRetryNumber="3" in_tsRetryInterval="00:00:00" />
+    <ui:CloseWindow UseWindow="{x:Null}" DisplayName="Close Window 'Close Tab'" sap:VirtualizedContainerService.HintSize="529.6,139.2" sap2010:WorkflowViewState.IdRef="CloseWindow_3" InformativeScreenshot="15bd82db0c7091386d3b03d48ab8739a" Selector="&lt;html app='chrome.exe' title='ACME System 1 -*' /&gt;" TimeoutMS="10000" WaitForReady="COMPLETE" />
+    <ui:CloseApplication DisplayName="Close Application 'acme-system3.exe ACME'" sap:VirtualizedContainerService.HintSize="529.6,130.4" sap2010:WorkflowViewState.IdRef="CloseApplication_1">
+      <ui:CloseApplication.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7487d563-72a0-4cda-b4b8-5c9ae662b3ae" InformativeScreenshot="c347152cbacfd5298ed754c294ac1c71" Selector="&lt;wnd app='acme-system3.exe' /&gt;">
+          <ui:Target.TimeoutMS>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:Target.TimeoutMS>
+          <ui:Target.WaitForReady>
+            <InArgument x:TypeArguments="ui:WaitForReady" />
+          </ui:Target.WaitForReady>
+        </ui:Target>
+      </ui:CloseApplication.Target>
+    </ui:CloseApplication>
+  </Sequence>
+</Activity>

@@ -1,0 +1,48 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "out_dtAccountInfo",
+        "out_strClientID",
+        "out_strAccNumber",
+        "out_strAccAmount",
+        "in_strWI1"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "out_dtAccountInfo&Sequence_1",
+        "strEmail&Sequence_1",
+        "strPassword&Sequence_1",
+        "dtExtractedData&Sequence_1",
+        "strBrowser&Sequence_1",
+        "strClientID&Sequence_3",
+        "strAccNumber&Sequence_3",
+        "strAccAmount&Sequence_3",
+        "strCurrency&Sequence_3",
+        "dtAccountInfo&Sequence_3",
+        "variable1&Sequence_3",
+        "variable2&Sequence_3",
+        "dblSumAmount&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
