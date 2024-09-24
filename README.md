@@ -9,7 +9,7 @@
     <li><strong>ACME System3 Desktop Application Library:</strong> Automates operations within the ACME System3 desktop application (desktop automation).</li>
 </ul>
 
-<h2>Process Workflow</h2>
+<details><summary><h2>Process Workflow</h2></summary>
 <ol>
     <li><strong>Open ACME System1 Website:</strong> 
         <ul>
@@ -72,6 +72,8 @@
         </ul>
     </li>
 </ol>
+
+</details>
 
 <h2>Conclusion</h2>
 <p>This project leverages the power of UiPath automation across both web and desktop platforms to efficiently handle a complex workflow. It automates logging into multiple systems, extracting detailed client data, updating work items, and ensuring that all operations are completed without manual intervention.</p>
